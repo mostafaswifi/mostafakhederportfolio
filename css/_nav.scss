@@ -1,0 +1,29 @@
+///nav bar
+.activeColor{
+    color: $color!important;
+    position: relative;
+    
+    &::after{
+        content: "";
+        position: absolute;
+        bottom: 2px;
+        left: 0;
+        width: 100%;
+        max-width: 80px;
+        height: 3px;
+        background-color: $color;
+
+}
+}
+
+.nav-link{
+    &:hover{
+        color: $color!important;
+        transition: all 0.5s ease-in-out;
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+ }
+
+}

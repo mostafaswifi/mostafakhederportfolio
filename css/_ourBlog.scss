@@ -1,0 +1,19 @@
+/// section ourBlog
+#blog{
+    height: 20rem;
+    background-image: url(../assets/imgs/bg_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#positioner{
+    margin-bottom: -100px;
+    z-index: 100;
+}
+
+@media (max-width: 575.98px){
+    #positioner{
+        margin-bottom: 1rem!important;
+    }
+}

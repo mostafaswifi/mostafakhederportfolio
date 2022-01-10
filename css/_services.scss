@@ -1,0 +1,17 @@
+.service{
+    &:hover{
+        
+        background-color: $bg-black!important;
+        font-weight: bolder;
+        letter-spacing: 4px;
+        box-shadow:1px 1px rgba($color:#fff,$alpha: 1.0);
+        transition: all 0.5s ease-in-out;
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        transform: translateY(-10%);
+   
+}
+}
+

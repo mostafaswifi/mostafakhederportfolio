@@ -1,0 +1,70 @@
+/// general variables ang classes
+$color : rgb(255, 189, 9);
+$bg-black : #000;
+$text-white: #fff;
+
+.btn{
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    &:hover 
+        {
+        background-color: $color;
+        color: #000!important;
+        border: none;
+    }
+}
+
+.letter-spacing{
+    letter-spacing: 1px;
+}
+
+.btn-width{
+    min-width: 140px;
+}
+
+.bg-black{
+    background-color: $bg-black;
+}
+
+.text-titleB{
+    font-size: 6vw;
+    font-weight: bolder;
+    z-index: -100;
+}
+
+.btn-bave{
+    cursor: pointer;
+}
+
+.textAnimation{
+        transition: all 0.5s ease-in-out;
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        &:hover{
+        color: $text-white!important;
+        opacity: 0.5;
+        background-image: conic-gradient(white, black);
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+}
+}
+
+.linkAnimation{
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    &:hover{
+        letter-spacing: 1px;
+        color: $color!important;
+    }
+}

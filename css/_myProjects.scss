@@ -1,0 +1,126 @@
+/// my projects
+.proj-window {
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#pro1 {
+  background-image: url(../assets/imgs/pro1.jpg);
+  object-fit: cover;
+}
+
+#pro2 {
+  background-image: url(../assets/imgs/pro2.jpg);
+  object-fit: cover;
+}
+
+#pro3 {
+  background-image: url(../assets/imgs/pro3.jpg);
+  object-fit: cover;
+}
+
+#pro4 {
+  background-image: url(../assets/imgs/pro4.jpg);
+  object-fit: cover;
+}
+
+#pro5 {
+  background-image: url(../assets/imgs/pro5.jpg);
+  object-fit: cover;
+}
+
+#pro6 {
+  background-image: url(../assets/imgs/pro6.jpg);
+  object-fit: cover;
+}
+
+#pro7 {
+  background-image: url(../assets/imgs/pro7.jpg);
+  object-fit: cover;
+}
+
+#pro8 {
+  background-image: url(../assets/imgs/pro8.jpg);
+  object-fit: cover;
+}
+
+#pro9 {
+  background-image: url(../assets/imgs/pro9.jpg);
+  object-fit: cover;
+}
+
+#pro10 {
+  background-image: url(../assets/imgs/pro10.jpg);
+  object-fit: cover;
+}
+
+#pro11 {
+  background-image: url(../assets/imgs/pro11.jpg);
+  object-fit: cover;
+}
+
+#pro12 {
+  background-image: url(../assets/imgs/pro12.jpg);
+  object-fit: cover;
+}
+
+#pro13 {
+  background-image: url(../assets/imgs/pro13.jpg);
+  object-fit: cover;
+}
+
+#pro14 {
+  background-image: url(../assets/imgs/pro14.jpg);
+  object-fit: cover;
+}
+
+#pro15 {
+  background-image: url(../assets/imgs/pro15.jpg);
+  object-fit: cover;
+}
+
+// .modals{
+//     transform: translateY(-100%);
+//     -webkit-transform: translateY(-100%);
+//     -moz-transform: translateY(-100%);
+//     -ms-transform: translateY(-100%);
+//     -o-transform: translateY(-100%);
+// }
+
+.modals-parent {
+    position: relative;
+    &:hover{
+        .modals{
+           opacity: 1;
+}
+
+    }
+    .modals{
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       opacity: 0;
+       transition: all 0.5s ease-in-out;
+       -webkit-transition: all 0.5s ease-in-out;
+       -moz-transition: all 0.5s ease-in-out;
+       -ms-transition: all 0.5s ease-in-out;
+       -o-transition: all 0.5s ease-in-out;
+       button{
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        }
+    }       
+}
+
+.modal-backdrop{
+    z-index: -1000;
+}
+
+.modal-content{
+    margin-top: 3rem;
+}
